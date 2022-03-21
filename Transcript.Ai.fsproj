@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <WarnOn>3390;$(WarnOn)</WarnOn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="VoskSink.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FM.LiveSwitch" Version="1.14.3.9675">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="FM.LiveSwitch.Opus" Version="1.14.3.9675">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="FM.LiveSwitch.AudioProcessing" Version="1.14.3.9675">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="FM.LiveSwitch.Vpx" Version="1.14.3.9675">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="FM.LiveSwitch.Yuv" Version="1.14.2.2993">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="Vosk" Version="0.3.32">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+    <PackageReference Include="FSharp.Core" Version="6.0.3">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
+  </ItemGroup>
+</Project>
