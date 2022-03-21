@@ -18,12 +18,6 @@
     <PackageReference Include="FM.LiveSwitch.AudioProcessing" Version="1.14.3.9675">
       <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
-    <PackageReference Include="FM.LiveSwitch.Vpx" Version="1.14.3.9675">
-      <GeneratePathProperty></GeneratePathProperty>
-    </PackageReference>
-    <PackageReference Include="FM.LiveSwitch.Yuv" Version="1.14.2.2993">
-      <GeneratePathProperty></GeneratePathProperty>
-    </PackageReference>
     <PackageReference Include="Vosk" Version="0.3.32">
       <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
