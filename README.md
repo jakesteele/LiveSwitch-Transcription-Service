@@ -1,7 +1,9 @@
-# LiveSwitch-Transcription-Service
-LiveSwitch WebRTC real time local transcription service written in FSharp F# using VOSK. 
+# LiveSwitch Transcription Micro Service
+LiveSwitch WebRTC real time local transcription service written in FSharp F# using VOSK.
 
 ## About
+Hobby project to understand audio pipelines within LiveSwitch's flexible client SDK. 
+
 Lightweight console project that joins an existing LiveSwitch WebRTC conference or broadcast and transcribes the participants in real time. Application sends back the completed sentances to the channel using the signaling layer. **Console application requires participants use SFU (single forwarding unit) mode.**
 
 ## Setup
@@ -16,3 +18,6 @@ You may want to setup your client application to display the incoming messages b
 
 - LiveSwitch (https://www.liveswitch.io/)
 - VOSK (https://alphacephei.com/vosk/)
+
+### Notes
+Not an official LiveSwitch product or offering within LiveSwitch. Do not contact them about supporting this project. 
